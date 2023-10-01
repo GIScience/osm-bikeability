@@ -1,0 +1,17 @@
+geometry:point and
+(
+highway = bus_stop or
+amenity in(archive, arts_centre, atm, bank, bar, biergarten, brothel, cafe, canteen, car_rental, car_wash, catering, childcare, cinema, clinic, college, community_centre, conference_centre, courthouse, dancing_school, dentist, doctors, driving_school, events_venue, fast_food, ferry_terminal, fire_station, hospital, ice_cream, kindergarten, language_school, library, marketplace, music_school, nightclub, nursing_home, pharmacy, photo_booth, place_of_worship, planetarium, police, post_office, prep_school, pub, public_bookcase, public_building, recycling, restaurant, school, shelter, shower, social_centre, social_facility, theatre, toilets, townhall, training, university, veterinary)
+)
+
+or
+
+geometry:polygon and
+(
+landuse in(commercial, education, recreation_ground, religious, retail) or
+shop = * or
+office in(educational_institution, religion, research, university) or
+building in(church, civic, college, commercial, public, retail, school, supermarket, synagogue, toilets, university, sports_centre, sports_hall, station, train_station) or
+amenity in(arts_centre, childcare, kindergarten, college, community_centre, library, place_of_worship, public_building, research_institute, school, social_facility, theatre, townhall, university, clinic, doctors, fire_station, grave_yard, hospital, police, retirement_home, bank, bar, biergarten, brothel, cafe, canteen, car_rental, car_wash, cinema, club, driving_school, fast_food, fuel, marketplace, pub, restaurant, vehicle_inspection, veterinary) or
+leisure in(club, common, dance, disc_golf_course, dog_park, fitness_centre, fitness_station, horse_riding, mini_golf, park, piste, playground, school_yard, sports_centre, sports_hall, stadium, swimming_pool, track, water_park)
+)

@@ -1,0 +1,8 @@
+highway = cycleway or 
+segregated = yes or 
+cycleway in (track, opposite_track, opposite, opposite_lane, lane, crossing, shared_lane, share_busway) or
+cycleway:both in (track, opposite_track, opposite, opposite_lane, lane, crossing, shared_lane, share_busway) or
+cycleway:left in (track, opposite_track, opposite, opposite_lane, lane, crossing, shared_lane, share_busway) or
+cycleway:right in (track, opposite_track, opposite, opposite_lane, lane, crossing, shared_lane, share_busway) or
+bicycle = designated or
+area:highway = cycleway

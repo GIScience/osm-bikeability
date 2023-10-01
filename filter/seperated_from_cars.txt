@@ -1,0 +1,8 @@
+geometry:line and
+(highway = cycleway or
+segregated = yes or
+cycleway = track or
+cycleway:left = track or
+cycleway:right = track or
+cycleway:both = track or
+bicycle = designated)

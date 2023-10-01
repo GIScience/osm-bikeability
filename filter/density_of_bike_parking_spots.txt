@@ -1,0 +1,2 @@
+(geometry:point and amenity = bicycle_parking) or
+(geometry:polygon and amenity = bicycle_parking)

@@ -1,0 +1,10 @@
+geometry:point and natural = tree or
+geometry:line and waterway in (river, stream, drain, canal) or
+geometry:polygon and
+( 
+	natural in(grassland, heath, scrub, wood, bay, beach, water, wetland) or 
+	leisure in(disc_golf_course, dog_park, garden, nature_reserve, park, pitch, swimming_pool, waterpark) or
+	sport in(baseball, dog_training, free_flying, multi, soccer, rugby_union, ultimate_frisbee, swimming) or
+	landuse in(allotments, Basin, farmland, flowerbed, forest, grass, greenfield, greenhouse_horticulture, meadow, orchard, plant_nursery, recreation_ground, village_green, vineyard) or
+	barrier = hedge
+)
