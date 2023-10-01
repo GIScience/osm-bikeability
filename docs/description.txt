@@ -1,0 +1,14 @@
+This layer shows the bikeability-index in urban regions. The term ‚bikeability‘ means in this case the suitability of cycling. The index is composed of five bikeability indicators that were calculated from osm data: 
+-	seperation from cars
+-	length of infrastructure
+-	density of bike parking spots
+-	density of potential destinations
+-	proportion of natural area
+The final bikeability index value is the average of all five indicator values and standardized from 1 to 10.
+1 means that the value is not sufficient at all. 10 means that the value is sufficient. 
+To decide whether the indicator value is sufficient or not, several regions with high cycling attractivity were used as orientation. 
+
+References for further understanding:
+[1]: Heinemann, Maren (2022): Radfreundlichkeit in der Stadt. Umsetzung eines Bikeability-Index auf Basis von OpenStreetMap am Beispiel Heidelberg. Universität Heidelberg. Heidelberg Institute for Geoinformation Technology.
+[2]: Kraft, Manuel (2023): Bikeability-Dokumentation. Online verfügbar unter https://gitlab.gistools.geog.uni-heidelberg.de/mkraft/bikeability/-/blob/main/documentation/bikeability_documentation.pdf.
+
